@@ -1,0 +1,9 @@
+.main-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.container-menu {
+  display: none;
+  transition: 2s;
+}

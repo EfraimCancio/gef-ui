@@ -1,0 +1,51 @@
+.main-menu {
+  background-color: #13294b;
+  width: 24rem;
+  height: 100vh;
+  padding: 2rem;
+  color: white;
+  font-size: 1.4rem;
+  position: absolute;
+  left: 0;
+  transition: 1s ease-in-out;
+}
+
+.optinos-list {
+  padding-left: 20px;
+  list-style: none;
+  background-color: #13294b;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.register-list {
+  margin-top: 2rem;
+  list-style: none;
+  background-color: #13294b;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.item-menu {
+  background-color: #13294b;
+}
+
+.item-cadastro {
+  background-color: #13294b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #13294b;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 1.5rem;
+  transition: .3s;
+}

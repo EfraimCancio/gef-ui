@@ -14,7 +14,6 @@ import { HomeComponent } from "./pages/home/home.component";
     HomeComponent,
     NavbarComponent,
     MainMenuComponent,
-
   ]
 })
 export class AppComponent {

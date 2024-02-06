@@ -8,22 +8,27 @@
 }
 
 .esquerda {
-  z-index: 0;
+  z-index: 1;
+  background: transparent;
 }
 
 .esquerda>img {
   width: 34rem;
 }
 
+.predio {
+  background: transparent !important;
+}
+
 .direita {
   padding-right: 23px;
   display: flex;
-  z-index: 4;
+  z-index: 0;
   height: 40.2rem;
   width: 324px;
   background-color: #13294b;
   margin-left: -62px;
-  margin-top: -61px;
+  margin-top: -70px;
   border-radius: 0 15px 15px 0;
   justify-content: center;
   align-items: center;
@@ -31,7 +36,7 @@
 
 .container-barra-de-rolagem {
   width: 10px;
-  height: 38rem;
+  height: 36.5rem;
   background-color: white;
   border-radius: 5px;
   position: relative;

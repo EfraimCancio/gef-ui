@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-elevator-menu',
@@ -10,20 +11,36 @@ import { Component } from '@angular/core';
 
 export class ElevatorMenuComponent {
 
+  constructor(private router: Router) { }
+
+
   elevadorPosition: number = 0;
 
   onScroll(event: any) {
     const barraRolagem = event.target;
-    // Lógica para calcular a posição do elevador com base na rolagem
     this.elevadorPosition = (barraRolagem.scrollTop / (barraRolagem.scrollHeight - barraRolagem.clientHeight)) * 93.3;
   }
-  // // Selecione a barra de rolagem e a imagem do elevador
-  // const barraRolagem = document.querySelector('.container-botoes');
-  // const elevador = document.getElementById('elevador');
 
-  // // Adicione um ouvinte de evento de rolagem à barra de rolagem
-  // this.barraRolagem.addEventListener('scroll', function () {
-  //   // Atualize a posição vertical da imagem do elevador com base na posição da barra de rolagem
-  //   this.elevador.style.top = (this.barraRolagem.scrollTop / (this.barraRolagem.scrollHeight - this.barraRolagem.clientHeight) * 93) + '%';
-  // });
+  goToThirdBasement = () => { this.router.navigate(['third-basement']) };
+  goToSecondBasement = () => { this.router.navigate(['second-basement']) };
+  goToFirstBasement = () => { this.router.navigate(['first-basement']) };
+  goToGroundFloor = () => { this.router.navigate(['ground-floor']) };
+  goToMezzanine = () => { this.router.navigate(['mezzanine']) };
+  goToFirstFloor = () => { { this.router.navigate(['first-floor']) } };
+  goToSecondFloor = () => { { this.router.navigate(['second-floor']) } };
+  goToThirdFloor = () => { { this.router.navigate(['third-floor']) } };
+  goToFourthFloor = () => { { this.router.navigate(['fourth-floor']) } };
+  goToFifthFloor = () => { { this.router.navigate(['fifth-floor']) } };
+  goToSixthFloor = () => { { this.router.navigate(['sixth-floor']) } };
+  goToSeventhFloor = () => { { this.router.navigate(['seventh-floor']) } };
+  goToEighthFloor = () => { { this.router.navigate(['eighth-floor']) } };
+  goToNinthFloor = () => { { this.router.navigate(['ninth-floor']) } };
+  goToTenthFloor = () => { { this.router.navigate(['tenth-floor']) } };
+  goToEleventhFloor = () => { { this.router.navigate(['eleventh-floor']) } };
+  goToTwelfthFloor = () => { { this.router.navigate(['twelfth-floor']) } };
+  goToThirteenthFloor = () => { { this.router.navigate(['thirteenth-floor']) } };
+  goToFourteenthFloor = () => { { this.router.navigate(['fourteenth-floor']) } };
+  goToFifteenthFloor = () => { { this.router.navigate(['fifteenth-floor']) } };
+
+
 }

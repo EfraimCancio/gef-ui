@@ -1,3 +1,46 @@
 import { Routes } from '@angular/router';
+import { EighthFloorComponent } from './pages/eighth-floor/eighth-floor.component';
+import { EleventhFloorComponent } from './pages/eleventh-floor/eleventh-floor.component';
+import { FifteenthFloorComponent } from './pages/fifteenth-floor/fifteenth-floor.component';
+import { FifthFloorComponent } from './pages/fifth-floor/fifth-floor.component';
+import { FirstBasementComponent } from './pages/first-basement/first-basement.component';
+import { FirstFloorComponent } from './pages/first-floor/first-floor.component';
+import { FourteenthFloorComponent } from './pages/fourteenth-floor/fourteenth-floor.component';
+import { FourthFloorComponent } from './pages/fourth-floor/fourth-floor.component';
+import { GroundFloorComponent } from './pages/ground-floor/ground-floor.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MezzanineComponent } from './pages/mezzanine/mezzanine.component';
+import { NinthFloorComponent } from './pages/ninth-floor/ninth-floor.component';
+import { SecondBasementComponent } from './pages/second-basement/second-basement.component';
+import { SecondFloorComponent } from './pages/second-floor/second-floor.component';
+import { SeventhFloorComponent } from './pages/seventh-floor/seventh-floor.component';
+import { SixthFloorComponent } from './pages/sixth-floor/sixth-floor.component';
+import { TenthFloorComponent } from './pages/tenth-floor/tenth-floor.component';
+import { ThirdBasementComponent } from './pages/third-basement/third-basement.component';
+import { ThirdFloorComponent } from './pages/third-floor/third-floor.component';
+import { ThirteenthFloorComponent } from './pages/thirteenth-floor/thirteenth-floor.component';
+import { TwelfthFloorComponent } from './pages/twelfth-floor/twelfth-floor.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  { 'path': '', component: HomeComponent },
+  { 'path': 'third-basement', component: ThirdBasementComponent },
+  { 'path': 'second-basement', component: SecondBasementComponent },
+  { 'path': 'first-basement', component: FirstBasementComponent },
+  { 'path': 'ground-floor', component: GroundFloorComponent },
+  { 'path': 'mezzanine', component: MezzanineComponent },
+  { 'path': 'first-floor', component: FirstFloorComponent },
+  { 'path': 'second-floor', component: SecondFloorComponent },
+  { 'path': 'third-floor', component: ThirdFloorComponent },
+  { 'path': 'fourth-floor', component: FourthFloorComponent },
+  { 'path': 'fifth-floor', component: FifthFloorComponent },
+  { 'path': 'sixth-floor', component: SixthFloorComponent },
+  { 'path': 'seventh-floor', component: SeventhFloorComponent },
+  { 'path': 'eighth-floor', component: EighthFloorComponent },
+  { 'path': 'ninth-floor', component: NinthFloorComponent },
+  { 'path': 'tenth-floor', component: TenthFloorComponent },
+  { 'path': 'eleventh-floor', component: EleventhFloorComponent },
+  { 'path': 'twelfth-floor', component: TwelfthFloorComponent },
+  { 'path': 'thirteenth-floor', component: ThirteenthFloorComponent },
+  { 'path': 'fourteenth-floor', component: FourteenthFloorComponent },
+  { 'path': 'fifteenth-floor', component: FifteenthFloorComponent }
+];

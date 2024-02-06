@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { Router } from '@angular/router';
 import { MainMenuComponent } from "../main-menu/main-menu.component";
 
 @Component({
@@ -9,15 +9,21 @@ import { MainMenuComponent } from "../main-menu/main-menu.component";
   styleUrl: './navbar.component.css',
   imports: [
     MainMenuComponent,
-    ButtonModule
   ]
 })
+
 export class NavbarComponent {
 
-  toggleMenu() {
+  constructor(private router: Router) { }
+
+  toggleMenu = () => {
     const containerMenu = document.querySelector('.container-menu') as HTMLElement;
     if (containerMenu) {
       containerMenu.style.display = containerMenu.style.display === 'none' ? 'flex' : 'none';
     }
   }
+
+  goToHome = () => {
+    this.router.navigate(['']);
+  };
 }

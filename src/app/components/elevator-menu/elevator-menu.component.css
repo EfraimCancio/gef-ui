@@ -13,22 +13,23 @@
 }
 
 .esquerda>img {
-  width: 34rem;
+  width: 24.3rem;
 }
 
 .predio {
   background: transparent !important;
+
 }
 
 .direita {
   padding-right: 23px;
   display: flex;
   z-index: 0;
-  height: 40.2rem;
-  width: 324px;
+  height: 28.8rem;
+  width: 18rem;
   background-color: #13294b;
   margin-left: -62px;
-  margin-top: -70px;
+  margin-top: -3.1rem;
   border-radius: 0 15px 15px 0;
   justify-content: center;
   align-items: center;
@@ -36,7 +37,7 @@
 
 .container-barra-de-rolagem {
   width: 10px;
-  height: 36.5rem;
+  height: 26rem;
   background-color: white;
   border-radius: 5px;
   position: relative;
@@ -56,13 +57,13 @@
 
 .container-botoes {
   background-color: #13294b;
-  height: 90%;
+  height: 91%;
   overflow: auto;
   display: flex;
   align-items: flex-end;
-  gap: 20px;
+  gap: 1rem;
   flex-direction: column;
-  width: 80%;
+  width: 79%;
   position: relative;
 }
 
@@ -74,8 +75,8 @@
   cursor: pointer;
   color: #13294b;
   border: none;
-  min-height: 45px;
-  width: 88%;
+  min-height: 2.2rem;
+  width: 84%;
   font-size: xx-small;
   font-weight: 500;
   border-radius: 20px;

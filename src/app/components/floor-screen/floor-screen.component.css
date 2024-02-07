@@ -1,0 +1,42 @@
+.floor-screen-container {
+  display: flex;
+  width: 100vw;
+  height: 92vh;
+}
+
+.back-button-container {
+  width: 20%;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.back-button {
+  background-color: #13294B;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 80%;
+}
+
+.back-button img {
+  background-color: #13294B;
+}
+
+.map-container {
+  text-align: center;
+  width: 80%;
+  background-color: white;
+  margin: 1.3rem 1.3rem 1rem 0;
+  font-size: 1.2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  color: #13294B;
+}
+
+.map-title {
+  background-color: white;
+}
+
+.map-image {
+  height: 31rem;
+  margin-top: 1.5rem;
+}

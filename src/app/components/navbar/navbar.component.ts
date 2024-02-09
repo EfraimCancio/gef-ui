@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CountdownModule } from 'ngx-countdown';
 import { MainMenuComponent } from "../main-menu/main-menu.component";
 
 @Component({
@@ -9,6 +10,7 @@ import { MainMenuComponent } from "../main-menu/main-menu.component";
   styleUrl: './navbar.component.css',
   imports: [
     MainMenuComponent,
+    CountdownModule
   ]
 })
 
@@ -25,5 +27,13 @@ export class NavbarComponent {
 
   goToHome = () => {
     this.router.navigate(['']);
+  };
+
+  showSystems = () => {
+    console.log('showSystems')
+  }
+
+  showLoguin = () => {
+    console.log('showLoguin')
   };
 }

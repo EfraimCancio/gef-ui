@@ -1,8 +1,22 @@
 <div class="navbar">
-  <button (click)="toggleMenu()" class="menu-button">
-    <i class="pi pi-bars menu-icon"></i>
-  </button>
-  <div class="logo">
-    <img class="logo-img" (click)="goToHome()" src="../../../assets/images/logo-menu.png" alt="">
+  <div class="nav-left">
+    <button (click)="toggleMenu()" class="menu-button">
+      <i class="pi pi-bars menu-icon"></i>
+    </button>
+    <div class="logo">
+      <img class="logo-img" (click)="goToHome()" src="../../../assets/images/logo-menu.png" alt="">
+    </div>
+  </div>
+
+  <div class="nav-right">
+    <div class="countdown-container">
+      <countdown class="cd" #cd [config]="{leftTime: 1800}"></countdown>
+    </div>
+    <button (click)="showSystems()" class="systems-button">
+      <i class="pi pi-th-large menu-icon"></i>
+    </button>
+    <button (click)="showLoguin()" class="loguin-button">
+      <i class="pi pi-globe menu-icon"></i>
+    </button>
   </div>
 </div>

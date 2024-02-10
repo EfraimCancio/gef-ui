@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DetailParkingComponent } from "../../components/detail-parking/detail-parking.component";
 import { FloorScreenComponent } from "../../components/floor-screen/floor-screen.component";
 
 @Component({
@@ -6,7 +7,7 @@ import { FloorScreenComponent } from "../../components/floor-screen/floor-screen
   standalone: true,
   templateUrl: './first-basement.component.html',
   styleUrl: './first-basement.component.css',
-  imports: [FloorScreenComponent]
+  imports: [FloorScreenComponent, DetailParkingComponent]
 })
 export class FirstBasementComponent {
 

@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { DetailParkingComponent } from "../detail-parking/detail-parking.component";
+
 
 @Component({
   selector: 'app-floor-screen',
   standalone: true,
   templateUrl: './floor-screen.component.html',
   styleUrl: './floor-screen.component.css',
-  imports: [DetailParkingComponent]
+  imports: []
 })
 
 export class FloorScreenComponent {

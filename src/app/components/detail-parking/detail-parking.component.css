@@ -1,0 +1,78 @@
+.button-modal-container {
+  width: 100%;
+  display: block;
+  padding-inline: 50%;
+  padding-bottom: 1rem;
+}
+
+.open-modal-button {
+  width: 4rem;
+  height: 4rem;
+  background-color: green;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.566);
+  text-align: -webkit-center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-parking-dialog {
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
+  margin-top: 5%;
+}
+
+.modal-parking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #13294B;
+  background-color: white;
+  border-bottom: solid 0.2rem rgba(220, 220, 220, 0.9);
+  font-weight: bold;
+}
+
+.modal-parking-title {
+  background-color: white;
+}
+
+.modal-parking-body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+
+.info-container {
+  background-color: white;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container h5 {
+  background-color: white;
+  color: #13294B;
+  font-weight: bold;
+}
+
+.info-container p {
+  background-color: white;
+  margin-top: -5px;
+}

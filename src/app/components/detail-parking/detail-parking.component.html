@@ -1,35 +1,35 @@
 <div class="button-modal-container" id="btnModalContainer">
-  <button class="open-modal-button" (click)="openDetailModal()">
+  <button class="open-modal-button" (click)="openDetailParkingModal()">
     <i class="pi pi-check" style="color: white; background-color: green;"></i>
   </button>
 </div>
 
 
-<div class="modal-container" id="detailParkingModal">
+<div class="modal-parking-container" id="detailParkingModal">
   <div class="modal-parking-dialog">
     <div class="modal-parking-content">
       <div class="modal-parking-header">
         <h4 class="modal-parking-title">Vaga (número) </h4>
-        <button class="btn-close" type="button" (click)="closeDetailModal()"></button>
+        <button class="btn-close" type="button" (click)="closeDetaiParkinglModal()"></button>
       </div>
       <div class="modal-parking-body">
-        <div class="info-container">
+        <div class="info-parking-container">
           <h5>Tipo</h5>
           <p>Reservada</p>
         </div>
-        <div class="info-container">
+        <div class="info-parking-container">
           <h5>Servidor Ocupante</h5>
           <p>João Silva (Procurador)</p>
         </div>
-        <div class="info-container">
+        <div class="info-parking-container">
           <h5>Veículo</h5>
           <p>Fiat/Pulse (Branco) - JKK0956</p>
         </div>
-        <div class="info-container">
+        <div class="info-parking-container">
           <h5>Numero da TAG</h5>
           <p>123456</p>
         </div>
-        <div class="info-container">
+        <div class="info-parking-container">
           <h5>Turno</h5>
           <p>Matutino</p>
         </div>
@@ -37,23 +37,3 @@
     </div>
   </div>
 </div>
-<!-- <div class="modal" id="detailParkingModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <div class="modal-header">
-        <h4 class="modal-title">Título da modal</h4>
-        <button class="btn-close" type="button" data-bs-dismiss="modal" (click)="closeDetailModal()"></button>
-      </div>
-
-      <div class="modal-body">
-        Conteudo da modal
-      </div>
-
-      <div class="modal-footer">
-        <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Fechar</button>
-      </div>
-
-    </div>
-  </div>
-</div> -->

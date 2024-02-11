@@ -1,0 +1,55 @@
+<div class="button-modal-container" id="btnModalContainer">
+  <button class="open-modal-button" (click)="openDetaiFloorlModal()">
+    Servidores
+  </button>
+</div>
+
+
+<div class="modal-floor-container" id="detailFloorModal">
+  <div class="modal-floor-dialog">
+    <div class="modal-floor-content">
+      <div class="modal-floor-header">
+        <h4 class="modal-floor-title">Servidores do Andar (número) </h4>
+        <button class="btn-close" type="button" (click)="closeDetaiFloorlModal()"></button>
+      </div>
+      <div class="modal-floor-body">
+        <table class="info-floor-container">
+          <thead class="floor-table-header">
+            <tr>
+              <th>Sala</th>
+              <th>Ramal</th>
+              <th>Nome</th>
+            </tr>
+          </thead>
+          <tbody class="floor-table-body">
+            <tr>
+              <td>111</td>
+              <td>123</td>
+              <td>João Silva</td>
+            </tr>
+            <tr>
+              <td>222</td>
+              <td>183</td>
+              <td>Cristiano Machado</td>
+            </tr>
+            <tr>
+              <td>333</td>
+              <td>456</td>
+              <td>Vitor Mamhed</td>
+            </tr>
+            <tr>
+              <td>444</td>
+              <td>987</td>
+              <td>Leonardo Oliveira</td>
+            </tr>
+            <tr>
+              <td>555</td>
+              <td>348</td>
+              <td>Efraim Fonseca</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

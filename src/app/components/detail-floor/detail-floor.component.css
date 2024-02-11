@@ -1,0 +1,128 @@
+.button-modal-container {
+  width: 3rem;
+  display: block;
+  position: absolute;
+  top: 7rem;
+  right: 7rem;
+  background-color: transparent;
+}
+
+.open-modal-button {
+  width: 5.5rem;
+  height: 2.5rem;
+  background-color: #13294B;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .9rem;
+  color: white;
+}
+
+.modal-floor-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.566);
+  text-align: -webkit-center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-floor-dialog {
+  width: 55rem;
+  height: 35rem;
+  background-color: white;
+  margin-top: 5%;
+}
+
+.modal-floor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #13294B;
+  background-color: white;
+  border-bottom: solid 0.2rem rgba(220, 220, 220, 0.9);
+  font-weight: bold;
+}
+
+.modal-floor-title {
+  background-color: white;
+}
+
+.modal-floor-body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.info-floor-container {
+  background-color: white;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  padding-right: 3rem;
+}
+
+.floor-table-header {
+  width: 100%;
+  display: flex;
+  gap: 5rem;
+  background-color: white;
+  color: #13294B;
+  border-bottom: solid 0.1rem rgba(220, 220, 220, 0.9);
+}
+
+.floor-table-header tr {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.floor-table-header tr>th {
+  background-color: white;
+}
+
+.floor-table-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 0.5rem;
+}
+
+.floor-table-body tr {
+  width: 100%;
+  display: flex;
+  gap: 5.5rem;
+  background-color: white;
+  border-bottom: solid 0.1rem rgba(220, 220, 220, 0.9);
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.floor-table-body tr>td {
+  background-color: white;
+}
+
+/* .floor-table-header tr {
+  display: flex;
+  gap: 5rem;
+} */
+
+/* .floor-table-body tr {
+  display: flex;
+  gap: 5rem;
+} */

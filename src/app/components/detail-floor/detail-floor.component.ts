@@ -1,16 +1,18 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-detail-parking',
+  selector: 'app-detail-floor',
   standalone: true,
   imports: [],
-  templateUrl: './detail-parking.component.html',
-  styleUrl: './detail-parking.component.css'
+  templateUrl: './detail-floor.component.html',
+  styleUrl: './detail-floor.component.css'
 })
-export class DetailParkingComponent {
 
-  openDetailParkingModal = () => {
-    const modalDiv = document.getElementById('detailParkingModal');
+export class DetailFloorComponent {
+
+
+  openDetaiFloorlModal = () => {
+    const modalDiv = document.getElementById('detailFloorModal');
     const btnContainer = document.getElementById('btnModalContainer');
 
     if (modalDiv != null && btnContainer != null) {
@@ -19,8 +21,8 @@ export class DetailParkingComponent {
     }
   }
 
-  closeDetaiParkinglModal = () => {
-    const modalDiv = document.getElementById('detailParkingModal');
+  closeDetaiFloorlModal = () => {
+    const modalDiv = document.getElementById('detailFloorModal');
     const btnContainer = document.getElementById('btnModalContainer');
 
     if (modalDiv?.style.display == 'block') {
